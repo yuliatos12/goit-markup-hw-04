@@ -457,14 +457,16 @@ header {
   margin-left: -24px;
 }
 
+
+
 .card {
   margin-left: 24px;
   margin-top: 48px;
   flex-basis: calc((100% - 72px) / 3);
 }
 
-.card:hover,
-.card:focus {
+.card-item-link:hover,
+.card-item-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
