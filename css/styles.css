@@ -201,6 +201,7 @@ header {
 
 .principle-list {
   display: flex;
+  gap: 24px;
 }
 .principles {
   padding-bottom: 0;
@@ -217,11 +218,12 @@ header {
 }
 
 .principle-list .item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+
 }
-.principle-list .item + .item {
-  margin-left: 24px;
-}
+
+
+
 
 .principle-name {
   font-weight: 500;
@@ -250,10 +252,9 @@ header {
 
 .project-list {
   display: flex;
+  gap: 24px;
 }
-.project-list .item + .item {
-  margin-left: 24px;
-}
+
 
 /* ---------------------TEAM--------------- */
 
@@ -262,10 +263,9 @@ header {
 }
 .team-list {
   display: flex;
+  gap: 24px;
 }
-.team-list .team-card + .team-card {
-  margin-left: 24px;
-}
+
 
 .member-name {
   font-weight: 500;
@@ -329,6 +329,7 @@ header {
 
 .customers-list {
   display: flex;
+  gap: 24px;
 }
 
 .client-link {
@@ -338,15 +339,13 @@ header {
   justify-content: center;
   align-items: center;
   fill: #8e8f99;
-}
-.custom-logo {
-  width: calc((100% - 120px) / 6);
   height: 88px;
 }
-
-.customers-list .custom-logo + .custom-logo {
-  margin-left: 24px;
+.custom-logo {
+  width: calc((100% - 120px) / 6); 
 }
+
+
 
 .client-link:hover,
 .client-link:focus {
